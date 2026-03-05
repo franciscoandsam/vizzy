@@ -1,0 +1,73 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": false,
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_ENV": "development"
+      }
+    },
+    "development-simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true,
+        "resourceClass": "m-medium"
+      },
+      "env": {
+        "APP_ENV": "development"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_ENV": "preview"
+      }
+    },
+    "production": {
+      "distribution": "store",
+      "autoIncrement": true,
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "APP_ENV": "production",
+        "EXPO_PUBLIC_OPENROUTER_API_KEY": "YOUR_KEY_HERE",
+        "EXPO_PUBLIC_FMP_API_KEY": "YOUR_KEY_HERE",
+        "EXPO_PUBLIC_REVENUECAT_API_KEY": "YOUR_KEY_HERE",
+        "EXPO_PUBLIC_OVH_WHISPER_TOKEN": "YOUR_KEY_HERE"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "6759051695",
+        "appleTeamId": "Z68HQW8267",
+        "ascApiKeyId": "835QHMG6FW",
+        "ascApiKeyIssuerId": "ceccd885-2c80-4117-beb3-9d70f6f954e8",
+        "ascApiKeyPath": "./asc-api-key.p8"
+      }
+    }
+  }
+}

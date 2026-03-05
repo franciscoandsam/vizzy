@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Vizzy",
+    "slug": "vizzy-money",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-wordmark.png",
+    "scheme": "vizzy",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-vizzy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8F0"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vizzy.thebuddy",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-wordmark.png",
+        "backgroundColor": "#FFF8F0"
+      },
+      "package": "com.vizzy.thebuddy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6aee2e10-4952-4e43-a3ac-47cb7027d12c"
+      }
+    },
+    "owner": "brainrotz2025"
+  }
+}

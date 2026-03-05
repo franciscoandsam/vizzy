@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+*.p8
+.env
+.env.local
+*.jks
+*.keystore
+package-lock.json
