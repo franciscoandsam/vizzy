@@ -83,19 +83,19 @@ Ages 4+ (no objectionable content)
 
 ## Privacy Policy URL
 ```
-https://vizzy.experiment.franciscocordobaotalora.com/privacy
+https://your-domain.com/privacy
 ```
 *(or host a static page — you can use the content from app/privacy.tsx)*
 
 ## Support URL
 ```
-https://vizzy.experiment.franciscocordobaotalora.com/support
+https://your-domain.com/support
 ```
 *(create a simple support page, or use an email: support@vizzy.money)*
 
 ## Marketing URL (optional)
 ```
-https://vizzy.experiment.franciscocordobaotalora.com
+https://your-domain.com
 ```
 
 ## Copyright

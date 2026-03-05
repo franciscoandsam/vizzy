@@ -305,7 +305,7 @@ export default function ConnectScreen() {
 
   // Plaid login fields (pre-populated for demo)
   const [username, setUsername] = useState('demo_user@vizzy.com');
-  const [password, setPassword] = useState('VizzyDemo2025!');
+  const [password, setPassword] = useState('');
 
   const filteredInstitutions = searchQuery.length > 0
     ? PLAID_INSTITUTIONS.filter((inst) =>
